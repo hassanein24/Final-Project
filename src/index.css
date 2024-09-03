@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.product
+{
+    overflow: hidden;
+}
+
+.product:hover{
+    box-shadow: black;
+    border: solid 2px green;
+}
+
+.product .btn{
+    transition: transform 1s, opacity 1s;
+    transform: translate(-100%);
+
+}
+
+.product:hover .btn
+{
+    opacity: 1;
+    transform:translate(2%)
+}
